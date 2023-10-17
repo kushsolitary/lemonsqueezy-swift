@@ -1,8 +1,7 @@
 import Foundation
 import Combine
 
-@MainActor
-public class LemonSqueezy: NSObject, ObservableObject {
+public class LemonSqueezy: NSObject {
     public private(set) var apiKey: String
     
     /// Base URL to API endpoint, without https prefix.
